@@ -6,7 +6,7 @@ Thanks for your message!
     $userEmail = $_POST['email'];
     $userMessage = $_POST['message'];
 
-    $to = "qali.langstaff@gmail.com";
+    $to = "qali.langstaff@hotmail.com";
     $subject = "Message from qali.me";
     $body = "Information submitted: ";
 
