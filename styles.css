@@ -1,0 +1,324 @@
+/* Master Styles */
+body {
+    font-family: 'Maven Pro', sans-serif;;
+    margin: 0;
+    background-color: #27292D;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* Nav Styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.32%;
+    padding-bottom: 0;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s ease-in-out;
+}
+
+
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.nav-link-wrapper a:hover {
+    color: whitesmoke;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.active-nav-link a {
+    color: whitesmoke !important;
+}
+
+/* Content Styles */
+.content-wrapper {
+    margin: 1.66%;
+}
+
+/* Home Styles */
+.home-wrapper {
+    height: 10em;
+}
+
+.home-wrapper h1 {
+    font-size: 6em;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Projects Styles */
+.portfolio-item-wrapper {
+    float: left;
+    position: relative;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    overflow: hidden;
+}
+
+.portfolio-img-background {
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    padding: 10% 5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: table;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.img-text-wrapper .title {
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    color: transparent;
+    border-bottom: 1px solid transparent;
+    height: 30%;
+}
+
+.img-text-wrapper:hover .title {
+    color: whitesmoke;
+    border-bottom: 1px solid transparent;
+    height: 30%;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 0.5s ease-in-out;
+    color: transparent;
+    height: 50%;
+    font-size: 0.7em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img-text-wrapper:hover .subtitle {
+    color: whitesmoke;
+    height: 50%;
+    font-size: 0.7em;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.img-darken {
+    transition: 0.5s ease-in-out;
+    filter: brightness(10%);
+}
+
+.project-link-wrapper {
+    border-bottom: 1px solid transparent;
+    transition: color 0.2 ease-in-out;
+}
+
+.project-link-wrapper a {
+    color: transparent;
+    text-decoration: none;
+}
+
+.project-link-wrapper:hover {
+    color: whitesmoke;
+}
+
+.project-link-wrapper a:hover {
+    color: whitesmoke;
+}
+
+/* Back Button */
+.nav-link-wrapper-back {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-link-wrapper-back a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-link-wrapper-back:hover {
+    transform: scale(1.1, 1.1);
+}
+/* About Styles */
+.about-content-wrapper {
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+/* Contact Form */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.contact-form {
+    margin: 1.66%;
+}
+
+form { max-width: 50%; margin: auto; }
+
+.feedback-input {
+  color:whitesmoke;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  border-radius: 10px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid whitesmoke;
+  transition: all 0.3s;
+  padding: 13px;
+  margin: 1.66%;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #FFFFFF; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 30%;
+  background: #010101;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:whitesmoke;
+  font-size: 0.9em;
+  padding: 10px;
+  font-weight:700;
+  transition: transform 0.2s ease-in-out;
+}
+
+[type="submit"]:hover { 
+    transform: scale(1.05, 1.05);
+}
+
+/* Footer Styles */
+.projects-footer-wrapper {
+    bottom: 0;
+    width: 100%;
+    margin: 1.66%;
+    margin-top: 0;
+}
+
+.footer-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 1.66%;
+}
+
+.socialmedia {
+    padding: 1.66%;
+}
+
+.copyright {
+    font-size: 0.9em;
+    padding: 1.66%;
+}
+
+/* Socialmedia Icons */
+.fa {
+    position: relative;
+    font-size: 0.9em;
+    letter-spacing: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .fa:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .fa-facebook:hover {
+    color: #4267B2;
+  }
+
+  .fa-twitter:hover {
+    color: #1DA1F2;
+  }
+
+  .fa-instagram:hover {
+    color: #bc2a8d;
+  }
+
+  .fa-snapchat-ghost:hover {
+      color: #fffc00;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-linkedin:hover {
+      color: #2867B2;
+  }
+
+  .fa-github:hover {
+      color: #211F1F;
+  }
+
+
+
+  /* Animations */
+
+
+  /*  TO DO: 
+  -ADD ANIMATIONS
+  -MODIFY TO WORK ON MOBILE TOO
+  -CONNECT SOCIAL MEDIAS
+  -EDIT SOCIAL MEDIAS SO I ACTUALLY WANT PEOPLE LOOKING
+  -CONNECT CONTACT FORM
+  -ADD VALIDATION TO CONTACT FORM
+  -ADD THANKYOU/CONFIRMATION TO CONTACT FORM
+  -WORK ON PROJECTS AND ADD TO PROJECTS PAGE
+  -ADD DIFFERENT PICTURES TO PROJECTS PAGE
+  -EDIT ABOUT ME
+  */
+
