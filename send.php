@@ -1,19 +1,17 @@
 Thanks for your message!
 
 <?php
+if (isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $mailFrom = $_POST['email'];
+    $message = $_POST['message'];
 
-    $userName = $_POST['name'];
-    $userEmail = $_POST['email'];
-    $userMessage = $_POST['message'];
-
-    $to = "qali.langstaff@hotmail.com";
-    $subject = "Message from qali.me";
-    $body = "Information submitted: ";
+    $mailTo = "qali.langstaff@hotmail.com";
+    $headers = "From: ".$mailFrom;
+    $txt = "You have recieved a new message from ".$name.".\n\n".$message;
 
 
-    $body .= "\r\n Name: " . $userName;
-    $body .= "\r\n Email: " . $userEmail;
-    $body .= "\r\n Message: " . $userMessage;
-
-    mail($to, $subject, $body);
+    mail($mailTo, $txt, $headers);
+    header("Location: send.php?mailsend");
+}
 ?>
