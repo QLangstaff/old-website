@@ -166,6 +166,10 @@ body {
     color: whitesmoke;
 }
 
+.project-page-wrapper h2 {
+    padding: 3.32%;
+}
+
 /* Back Button */
 .nav-link-wrapper-back {
     height: 22px;
