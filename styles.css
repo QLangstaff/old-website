@@ -168,7 +168,16 @@ body {
 
 .project-page-wrapper h2 {
     padding: 3.32%;
+    padding-bottom: 1.66%;
 }
+
+.project-page-wrapper p {
+    padding: 1.66%;
+    padding-bottom: 3.32%
+    text-align: justify;
+    width: 70%;
+}
+        
 
 /* Back Button */
 .nav-link-wrapper-back {
