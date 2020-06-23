@@ -176,6 +176,20 @@ body {
     text-align: center;
 }
         
+/*Project Page links */
+.project-page-link-wrapper {
+    border-bottom: 1px solid transparent;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-page-link-wrapper a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.project-page-link-wrapper:hover {
+    transform: scale(1.1, 1.1);
+}
 
 /* Back Button */
 .nav-link-wrapper-back {
@@ -316,20 +330,4 @@ textarea {
   }
 
 
-
   /* Animations */
-
-
-  /*  TO DO: 
-  -ADD ANIMATIONS
-  -MODIFY TO WORK ON MOBILE TOO
-  -CONNECT SOCIAL MEDIAS
-  -EDIT SOCIAL MEDIAS SO I ACTUALLY WANT PEOPLE LOOKING
-  -CONNECT CONTACT FORM
-  -ADD VALIDATION TO CONTACT FORM
-  -ADD THANKYOU/CONFIRMATION TO CONTACT FORM
-  -WORK ON PROJECTS AND ADD TO PROJECTS PAGE
-  -ADD DIFFERENT PICTURES TO PROJECTS PAGE
-  -EDIT ABOUT ME
-  */
-
