@@ -188,6 +188,12 @@ body {
     text-decoration: none;
 }
 
+.projectpage3 h3,p {
+    font-family:'qaliregular';
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Back Button */
 .nav-link-wrapper-back {
     height: 22px;
