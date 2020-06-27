@@ -178,6 +178,16 @@ body {
     padding-top: 0;
     text-align: center;
 }
+
+.project-page-wrapper a {
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-page-wrapper a:hover {
+    transform: scale(1.1,1.1);
+}
         
 /*Project Page links */
 .project-page-link-wrapper {
