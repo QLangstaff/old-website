@@ -188,10 +188,20 @@ body {
     text-decoration: none;
 }
 
-.projectpage3 h3,p {
+.projectpage3 h3 {
     font-family:'qaliregular';
     font-weight: normal;
     font-style: normal;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.projectpage3 p {
+    font-family:'qaliregular';
+    font-weight: normal;
+    font-style: normal;
+    padding: 0;
+    font-size: 1.5em;
 }
 
 /* Back Button */
