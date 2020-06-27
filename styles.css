@@ -178,17 +178,6 @@ body {
     padding-top: 0;
     text-align: center;
 }
-
-.project-page-wrapper a {
-    border-bottom: 1px solid transparent;
-    color: whitesmoke;
-    transition: transform 0.2s ease-in-out;
-}
-
-.project-page-wrapper a:hover {
-    transform: scale(1.1,1.1);
-    text-decoration: none;
-}
         
 /*Project Page links */
 .project-page-link-wrapper {
