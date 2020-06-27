@@ -5,7 +5,7 @@
 @font-face {
     font-family: 'qaliregular';
     src: url('https://qali.me/css/fonts/qaliregular.eot');
-    src: url('https://qali.me/css/fonts/qaliregular.woff') format('woff'),
+    src: url('qalis_font-regular-webfont.woff') format('woff'),
     url('https://qali.me/css/fonts/qaliregular.otf') format('opentype'),
     url('https://qali.me/css/fonts/qaliregular.svg#filename') format('svg');
     font-weight: normal;
