@@ -224,9 +224,8 @@ body {
 /* About Styles */
 .about-content-wrapper {
     border-radius: 10px;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 93.36%;
+    padding: 3.32%;
     text-align: justify;
 }
 
