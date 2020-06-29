@@ -61,9 +61,7 @@ body {
 }
 
 /* Content Styles */
-.content-wrapper {
-    margin: 1.66%;
-}
+
 
 /* Home Styles */
 .home-wrapper {
@@ -225,6 +223,7 @@ body {
 .about-content-wrapper {
     width: 93.36%;
     padding: 3.32%;
+    padding-top: 0;
     text-align: justify;
 }
 
