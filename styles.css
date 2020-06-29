@@ -230,10 +230,6 @@ body {
 /* Contact Form */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-.contact-form {
-    margin: 1.66%;
-}
-
 form { max-width: 50%; margin: auto; }
 
 .feedback-input {
