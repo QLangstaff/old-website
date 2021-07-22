@@ -127,7 +127,7 @@ body {
 }
 
 .img-text-wrapper .subtitle {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     transition: 0.5s ease-in-out;
     color: transparent;
     height: 50%;
@@ -137,7 +137,7 @@ body {
 }
 
 .img-text-wrapper:hover .subtitle {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     color: whitesmoke;
     height: 50%;
     font-size: 0.7em;
@@ -231,13 +231,12 @@ body {
 }
 
 /* Contact Form */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 form { max-width: 50%; margin: auto; }
 
 .feedback-input {
   color:whitesmoke;
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 0.9em;
   border-radius: 10px;
   line-height: 22px;
@@ -260,7 +259,7 @@ textarea {
 }
 
 [type="submit"] {
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   width: 30%;
   background: #010101;
   border-radius:5px;
