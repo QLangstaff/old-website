@@ -1,6 +1,5 @@
 /* Master Styles */
 body {
-    font-family: 'Parisienne', cursive;
     margin: 0;
     background-color: #27292D;
 }
@@ -68,8 +67,11 @@ body {
     height: 10em;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 .home-wrapper h1 {
     font-size: 6em;
+    font-family: 'Parisienne', cursive;
     position: absolute;
     top: 35%;
     left: 50%;
