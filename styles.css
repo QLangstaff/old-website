@@ -30,6 +30,10 @@ body {
     text-transform: uppercase;
 }
 
+.nav-wrapper > .right-side > div {
+    font-family: 'Parisienne', cursive;
+}
+
 .nav-link-wrapper {
     height: 22px;
     border-bottom: 1px solid transparent;
